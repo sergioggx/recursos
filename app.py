@@ -151,7 +151,7 @@ with tab_ia:
             
             try:
                 with st.spinner("Instanciando modelos de Groq y auditando variables biométricas..."):
-                    client = Groq(api_key=groq_key)
+                    client = Groq(api_key=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)
                     completion = client.chat.completions.create(
                         model="llama3-8b-8192",
                         messages=[{"role": "user", "content": prompt_ingenieria}],
